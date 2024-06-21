@@ -15,7 +15,7 @@ Open Termux and update the package list: pkg update
 
 Install the required packages: pkg install python git
 
-Clone the HaSh ED repository: git clone https://github.com/10c4lh0st07/HaSh-ED/
+Clone the HaSh ED repository: git clone https://github.com/zooxinirll/HaSh-ED/
 
 Change into the cloned repository: cd Hash-ED
 
@@ -43,7 +43,7 @@ Open Git Bash and update the package list: git update
 
 Install the required packages: pip install git
 
-Clone the HaSh ED repository: git clone https://github.com/10c4lh0st07/HaSh-ED/
+Clone the HaSh ED repository: git clone https://github.com/zooxinirll/HaSh-ED/
 
 Change into the cloned repository: cd Hash-ED
 
