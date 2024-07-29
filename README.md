@@ -9,27 +9,27 @@ Whether you're a security professional, a developer, or just someone looking to 
 
 # Installation
 
-Termux (Android):
+## Termux (Android):
 
-Open Termux and update the package list: pkg update
+Open Termux and update the package list: * pkg update
 
-Install the required packages: pkg install python git
+Install the required packages: * pkg install python git
 
-Clone the HaSh ED repository: git clone https://github.com/zooxinirll/HaSh-ED/
+Clone the HaSh ED repository: * git clone https://github.com/zooxinirll/HaSh-ED/
 
-Change into the cloned repository: cd Hash-ED
+Change into the cloned repository:* cd Hash-ED
 
-Install the required Python packages: pip install -r requirements.txt
+Install the required Python packages: * pip install -r requirements.txt
 
-Run the tool: python3 main.py.py
+Run the tool: * python3 main.py.py
 
 Linux (Ubuntu/Debian-based):
 
-Open a terminal and update the package list: sudo apt update
+Open a terminal and update the package list: * sudo apt update
 
-Install the required packages: sudo apt install python3 git
+Install the required packages: * sudo apt install python3 git
 
-Clone the HaSh ED repository: git clone https://github.com/zooxinirll/HaSh-ED/
+Clone the HaSh ED repository: * git clone https://github.com/zooxinirll/HaSh-ED/
 
 Change into the cloned repository: cd Hash-ED
 
