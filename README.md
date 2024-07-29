@@ -13,13 +13,13 @@ Whether you're a security professional, a developer, or just someone looking to 
 
 Open Termux and update the package list: pkg update
 
-Install the required packages: # pkg install python git
+ * pkg install python git
 
-Clone the HaSh ED repository: * git clone https://github.com/zooxinirll/HaSh-ED/
+ git clone https://github.com/zooxinirll/HaSh-ED/
 
-Change into the cloned repository:* cd Hash-ED
+cd Hash-ED
 
-Install the required Python packages: * pip install -r requirements.txt
+ pip install -r requirements.txt
 
 Run the tool: * python3 main.py.py
 
