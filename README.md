@@ -11,7 +11,7 @@ Whether you're a security professional, a developer, or just someone looking to 
 
 ## Termux (Android):
 
-Open Termux and update the package list: * pkg update
+Open Termux and update the package list: *pkg update
 
 Install the required packages: * pkg install python git
 
