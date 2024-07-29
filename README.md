@@ -23,7 +23,7 @@ Open Termux and update the package list: pkg update
 
  * python3 main.py.py
 
-#* Linux (Ubuntu/Debian-based):
+# Linux (Ubuntu/Debian-based):
 
 * sudo apt update
 
