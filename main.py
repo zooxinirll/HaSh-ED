@@ -3,6 +3,7 @@ import os
 import time
 import colorama
 from colorama import Fore, Back, Style
+import pyfiglet
 
 # Clear screen function
 def clear_screen():
@@ -18,26 +19,9 @@ def animation(text):
 # Tool interface
 def tool_interface():
     clear_screen()
-    print(Fore.RED+"""
-88        88             ad88888ba  88                   88888888888 88888888ba,
-88        88            d8"     "8b 88                   88          88      `"8b
-88        88            Y8,         88                   88          88        `8b
-88aaaaaaaa88 ,adPPYYba, `Y8aaaaa,   88,dPPYba,           88aaaaa     88         88
-88********88 ""     `Y8   `******8b,88P'    "8a aaaaaaaa 88*****     88         88
-88        88 ,adPPPPP88         `8b 88       88 *******  88          88         8P
-88        88 88,    ,88 Y8a     a8P 88       88          88          88      .a8P
-88        88 `"8bbdP"Y8  "Y88888P"  88       88          88888888888 88888888Y"'
-
-
-{w}Author: LocalHost.07{r}
-
-  """.format(w=Fore.WHITE, r=Style.RESET_ALL))
-
-
-
-
-
-
+    banner = pyfiglet.figlet_format("HaSh-ED", font="slant")
+    print(Fore.WHITE + banner)
+    print(Fore.RED + "Author: LocalHost.07" + Style.RESET_ALL)
     print(Fore.YELLOW + "Encrypt , Decrypt [ crack ] Hashes . HaSh Ed Tool" + Style.RESET_ALL)
     print()
 
@@ -99,3 +83,4 @@ def main():
 if __name__ == "__main__":
     animation("Loading HaSh ED...")
     main()
+        
